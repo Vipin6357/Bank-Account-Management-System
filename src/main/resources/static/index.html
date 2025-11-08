@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bank App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Bank Account Management System</h1>
+
+    <!-- Create Account -->
+    <div class="card">
+        <h2>Create Account</h2>
+        <input type="text" id="name" placeholder="Name">
+        <input type="number" id="balance" placeholder="Initial Balance">
+        <button onclick="createAccount()">Create</button>
+        <p id="createResult"></p>
+    </div>
+
+    <!-- Deposit Money -->
+    <div class="card">
+        <h2>Deposit Money</h2>
+        <input type="text" id="depAccNo" placeholder="Account Number">
+        <input type="number" id="depAmount" placeholder="Amount">
+        <button onclick="deposit()">Deposit</button>
+        <p id="depResult"></p>
+    </div>
+
+    <!-- Withdraw Money -->
+    <div class="card">
+        <h2>Withdraw Money</h2>
+        <input type="text" id="withAccNo" placeholder="Account Number">
+        <input type="number" id="withAmount" placeholder="Amount">
+        <button onclick="withdraw()">Withdraw</button>
+        <p id="withResult"></p>
+    </div>
+
+    <!-- Check Balance -->
+    <div class="card">
+        <h2>Check Balance</h2>
+        <input type="text" id="chkAccNo" placeholder="Account Number">
+        <button onclick="checkBalance()">Check</button>
+        <p id="balanceResult"></p>
+    </div>
+
+    <!-- View All Accounts -->
+    <div class="card">
+        <h2>All Accounts</h2>
+        <button onclick="getAllAccounts()">View All</button>
+        <div id="allAccounts"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

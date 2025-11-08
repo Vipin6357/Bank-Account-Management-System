@@ -1,0 +1,49 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 20px;
+}
+
+h1 {
+    text-align: center;
+    color: #2c3e50;
+}
+
+.card {
+    background-color: #fff;
+    padding: 15px 20px;
+    margin: 20px auto;
+    border-radius: 10px;
+    max-width: 500px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+input {
+    width: calc(100% - 22px);
+    padding: 8px;
+    margin: 5px 0;
+}
+
+button {
+    padding: 8px 15px;
+    margin: 5px 0;
+    cursor: pointer;
+    background-color: #2c3e50;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #34495e;
+}
+
+p {
+    margin: 5px 0;
+}
+
+#allAccounts {
+    max-height: 200px;
+    overflow-y: auto;
+    margin-top: 10px;
+}
